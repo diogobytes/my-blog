@@ -1,0 +1,17 @@
+baseurl = "/"
+title = "Diogo Guedes Blog"
+theme = "ghostwriter"
+
+[Params]
+    mainSections = ["post"]
+    intro = true
+    headline = "CyberSec | DevOps | Cloud"
+    description = "Here i share with you my passion and learning experiences :)"
+    github = "https://github.com/diogobytes"
+    email = "diogo.guedes111@gmail.com"
+    linkedin = "https://www.linkedin.com/in/diogo-guedes11/"
+    opengraph = true
+    dateFormat = "Mon, Jan 2, 2006"
+
+[Permalinks]
+    post = "/:filename/"
